@@ -1,0 +1,39 @@
+.c-login {
+    padding: 20px;
+}
+
+.c-login__wrapper {
+    width: 440px;
+    background-color: rgb(255, 255, 255);
+    gap: 45px;
+}
+
+.c-login__title {
+    text-align: right;
+    font-weight: normal;
+}
+
+.c-form {
+    width: 100%;
+    gap: 30px;
+}
+
+.c-form__fields {
+    gap: 15px;
+}
+
+.c-form__fields--gap {
+    gap: 62px;
+}
+
+.c-form__label {
+    color: var(--disable-color);
+    font-size: 15.5px;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.c-form__input {
+    --border-color-gray: #0000002c;
+    border-bottom: 2px solid var(--border-color-gray);
+}
