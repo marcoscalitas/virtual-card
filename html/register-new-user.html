@@ -20,31 +20,39 @@
             <form action="" method="post" class="c-form u-flex-column u-width-100">
                 <!-- Fields -->
                 <div class="c-form__fields u-grid u-width-100">
+                    <!-- Title -->
                     <h2 class="c-form__title">Dados Pessoais</h2>
                     <h2 class="c-form__title">Dados de sessão </h2>
                     <!-- Field group -->
                     <div class="c-form__group u-width-100 u-flex-column">
-                        <label for="username">Nome do utilizador</label>
-                        <input type="text" name="username" id="username" class="c-form__input u-width-100">
+                        <label for="username" class="c-form__label u-left">Nome do utilizador</label>
+                        <input type="text" name="username" id="username"
+                            class="c-form__input u-input u-focus u-width-100">
                     </div>
                     <!-- Field group -->
                     <div class="c-form__group u-width-100 u-flex-column">
-                        <label for="username">Nome do utilizador</label>
-                        <input type="text" name="username" id="username" class="c-form__input u-width-100">
+                        <label for="code" class="c-form__label u-left">Código de acesso</label>
+                        <input type="text" name="code" id="code" class="c-form__input u-input u-focus u-width-100">
                     </div>
                     <!-- Field group -->
                     <div class="c-form__group u-width-100 u-flex-column">
-                        <label for="username">Nome do utilizador</label>
-                        <input type="text" name="username" id="username" class="c-form__input u-width-100">
+                        <label for="username" class="c-form__label u-left">Perfil</label>
+                        <select name="profile" id="profile" class="c-form__select u-input u-focus u-width-100">
+                            <option value="">Selecione o Perfil</option>
+                            <option value="Administrador">Administrador</option>
+                            <option value="Colaborador Vip">Colaborador Vip</option>
+                            <option value="Colaborador Normal">Colaborador Normal</option>
+                        </select>
                     </div>
                     <!-- Field group -->
                     <div class="c-form__group u-width-100 u-flex-column">
-                        <label for="username">Nome do utilizador</label>
-                        <input type="text" name="username" id="username" class="c-form__input u-width-100">
+                        <label for="username" class="c-form__label u-left">Chave de acesso</label>
+                        <input type="text" name="username" id="username"
+                            class="c-form__input u-input u-focus u-width-100">
                     </div>
                 </div>
                 <!-- Button submit -->
-                <button type="submit" class="c-form__btn u-btn u-flex">Inicie sessão</button>
+                <button type="submit" class="c-form__btn u-btn u-btn-primary u-flex">Registrar</button>
             </form>
         </div>
     </div>

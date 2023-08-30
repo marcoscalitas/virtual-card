@@ -7,16 +7,49 @@
     gap: 50px;
 }
 
+.c-form__title {
+    font-weight: normal;
+}
+
 .c-form {
-    gap: 30px;
+    gap: 65px;
 }
 
 .c-form__fields {
-    gap: 15px;
+    row-gap: 18px;
+    column-gap: 45px;
 }
 
 .c-form__group {
+    gap: 8px;
 }
 
-.c-form__input {
+.c-form__input,
+.c-form__select {
+    padding: 12px;
+    border: 2px solid #0000002e;
+}
+
+@media (max-width: 587px) {
+    .c-register__wrapper {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .c-form {
+        gap: 35px;
+    }
+
+    .c-form__fields {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+    .c-form__title {
+        font-size: 22px;
+    }
+
+    .c-form__title:nth-child(2) {
+        grid-area: c-form__group 3;
+    }
 }

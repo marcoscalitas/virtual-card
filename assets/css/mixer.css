@@ -40,12 +40,28 @@
     transition: var(--hover-transition);
 }
 
+.u-focus:focus {
+    border: 2px solid var(--primary-color);
+}
+
 /* Button */
 .u-btn {
     border: none;
     font-size: 16px;
     background-color: transparent;
-    padding: 14px 55px;
+}
+
+.u-btn-primary {
+    color: var(--disable-color);
+    white-space: nowrap;
+    background-color: var(--btn-gray-color);
+    transition: var(--hover-transition);
+    padding: 15px 60px;
+}
+
+.u-btn-primary:hover {
+    color: var(--white);
+    background-color: var(--primary-color);
 }
 
 /* Others */
@@ -62,6 +78,16 @@
     text-align: right;
 }
 
+.u-left {
+    width: 100%;
+    text-align: left;
+}
+
+.u-center {
+    width: 100%;
+    text-align: center;
+}
+
 .u-title {
     font-size: 32px;
     font-weight: normal;
@@ -69,4 +95,23 @@
 
 .u-width-100 {
     width: 100%;
+}
+
+@media (max-width: 500px) {
+    .u-title {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 300px) {
+    .u-title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:250px) {
+    .u-btn {
+        width: 100%;
+    }
 }

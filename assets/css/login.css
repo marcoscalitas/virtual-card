@@ -55,18 +55,6 @@
     text-decoration: underline;
 }
 
-.c-form__btn {
-    color: var(--disable-color);
-    white-space: nowrap;
-    background-color: var(--btn-gray-color);
-    transition: var(--hover-transition);
-}
-
-.c-form__btn:hover {
-    color: var(--white);
-    background-color: var(--primary-color);
-}
-
 @media (max-width: 500px) {
     .c-login__wrapper {
         width: 100%;
@@ -95,17 +83,5 @@
 
     .c-form__signup-link {
         margin-left: 0px;
-    }
-}
-
-@media (max-width: 300px) {
-    .c-login__title {
-        font-size: 25px;
-    }
-}
-
-@media (max-width:250px) {
-    .c-form__btn {
-        width: 100%;
     }
 }
