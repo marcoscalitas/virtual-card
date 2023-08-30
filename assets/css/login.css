@@ -8,10 +8,6 @@
     gap: 45px;
 }
 
-.c-login__title {
-    font-weight: normal;
-}
-
 .c-form {
     width: 100%;
     gap: 20px;
@@ -37,7 +33,7 @@
 
 .c-form__label {
     color: var(--disable-color);
-    font-size: 15.5px;
+    font-size: 16px;
     white-space: nowrap;
     font-weight: 500;
 }
@@ -59,7 +55,6 @@
 
 .c-form__btn {
     color: var(--disable-color);
-    font-weight: 500;
     white-space: nowrap;
     background-color: var(--btn-gray-color);
     transition: var(--hover-transition);
