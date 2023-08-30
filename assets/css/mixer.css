@@ -1,3 +1,8 @@
+.u-right {
+    width: 100%;
+    text-align: right;
+}
+
 .u-flex-center {
     width: 100%;
     height: 100vh;
@@ -6,10 +11,16 @@
     align-items: center;
 }
 
+.u-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .u-flex-column {
     display: flex;
     flex-direction: column;
-
+    align-items: center;
 }
 
 .u-flex-between {
@@ -24,4 +35,11 @@
     outline: none;
     font-size: 16px;
     transition: var(--hover-transition);
+}
+
+.u-btn {
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+    padding: 14px 55px;
 }

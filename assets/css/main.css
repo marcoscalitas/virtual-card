@@ -15,7 +15,8 @@
     --black: #000;
     --primary-color: #0095ff;
     --disable-color: #00000080;
+    --btn-gray-color: #0000000f;
     --font-family: 'Roboto', sans-serif;
     /* transition*/
-    --primary-transition: #0000000f;
+    --hover-transition: all 150ms ease-in-out;
 }

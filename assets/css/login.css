@@ -3,26 +3,35 @@
 }
 
 .c-login__wrapper {
-    width: 440px;
+    width: 435px;
     background-color: rgb(255, 255, 255);
     gap: 45px;
 }
 
 .c-login__title {
-    text-align: right;
     font-weight: normal;
 }
 
 .c-form {
     width: 100%;
-    gap: 30px;
+    gap: 20px;
+}
+
+.c-form--gap {
+    gap: 35px;
 }
 
 .c-form__fields {
+    width: 100%;
+    gap: 40px;
+}
+
+.c-form__group {
+    width: 100%;
     gap: 15px;
 }
 
-.c-form__fields--gap {
+.c-form__group--gap {
     gap: 62px;
 }
 
@@ -34,6 +43,72 @@
 }
 
 .c-form__input {
-    --border-color-gray: #0000002c;
+    --border-color-gray: #00000050;
     border-bottom: 2px solid var(--border-color-gray);
+}
+
+.c-form__signup-link {
+    position: relative;
+    color: var(--primary-color);
+    margin-left: -70px
+}
+
+.c-form__signup-link:hover {
+    text-decoration: underline;
+}
+
+.c-form__btn {
+    color: var(--disable-color);
+    font-weight: 500;
+    white-space: nowrap;
+    background-color: var(--btn-gray-color);
+    transition: var(--hover-transition);
+}
+
+.c-form__btn:hover {
+    color: var(--white);
+    background-color: var(--primary-color);
+}
+
+@media (max-width: 500px) {
+    .c-login__wrapper {
+        width: 100%;
+    }
+
+    .c-login__title {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .c-form__group {
+        flex-direction: column;
+    }
+
+    .c-form__group--gap {
+        gap: 15px;
+    }
+
+    .c-form__label {
+        position: relative;
+        width: 100%;
+        text-align: left;
+    }
+
+    .c-form__signup-link {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 300px) {
+    .c-login__title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:250px) {
+    .c-form__btn {
+        width: 100%;
+    }
 }
