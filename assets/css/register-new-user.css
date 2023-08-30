@@ -1,0 +1,22 @@
+.c-register {
+    padding: 20px;
+}
+
+.c-register__wrapper {
+    width: 655px;
+    gap: 50px;
+}
+
+.c-form {
+    gap: 30px;
+}
+
+.c-form__fields {
+    gap: 15px;
+}
+
+.c-form__group {
+}
+
+.c-form__input {
+}
