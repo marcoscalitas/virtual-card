@@ -60,6 +60,29 @@
     background-color: var(--primary-color);
 }
 
+/* Effetcs */
+.u-underline-fx {
+    position: relative;
+}
+
+.u-underline-fx::before {
+    --fx-transition: all 250ms ease-in-out;
+    content: '';
+    width: 0%;
+    height: 2.5px;
+    bottom: 5px;
+    left: 50%;
+   
+    transform: translateX(-50%);
+    background-color: var(--white);
+    transition: var(--fx-transition);
+    position: absolute;
+}
+
+.u-underline-fx:hover::before {
+    width: 100%;
+}
+
 /* Others */
 .u-white {
     color: white;
@@ -69,15 +92,15 @@
     color: black;
 }
 
-.u-right {
+.u-text-right {
     text-align: right;
 }
 
-.u-left {
+.u-text-left {
     text-align: left;
 }
 
-.u-center {
+.u-text-center {
     text-align: center;
 }
 

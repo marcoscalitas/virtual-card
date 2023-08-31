@@ -1,0 +1,46 @@
+:root {
+    --navbar-color: #162c48;
+}
+
+.body {
+    background-color: #edf3f9;
+}
+
+.c-navbar {
+    gap: 5px;
+}
+
+.c-navbar__primary {
+    padding: 36px 35px;
+    background-color: var(--navbar-color);
+    flex-shrink: 5;
+}
+
+.c-navbar__title {
+    font-size: 32px;
+    white-space: nowrap;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.c-navbar__secondary {
+    padding: 26px 20px 26px 150px;
+    background-color: var(--navbar-color);
+}
+
+.c-menu__list {
+    width: 100%;
+}
+
+.c-menu__link {
+    font-size: 17px;
+    font-weight: normal;
+    padding: 15px 0px;
+    transition: var(--hover-transition);
+    gap: 10px;
+}
+
+
+.c-menu__link .c-menu__icon {
+    font-size: 28px;
+}
