@@ -12,10 +12,11 @@
 }
 
 .c-form {
-    gap: 65px;
+    gap: 60px;
 }
 
 .c-form__fields {
+    grid-template-columns: repeat(2, 1fr);
     row-gap: 18px;
     column-gap: 45px;
 }
@@ -49,7 +50,7 @@
         font-size: 22px;
     }
 
-    .c-form__title:nth-child(2) {
-        grid-area: c-form__group 3;
+    .c-form__title:nth-of-type(2) {
+        grid-area: 4;
     }
 }
