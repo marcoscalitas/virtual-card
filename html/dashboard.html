@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/mixer.css">
     <link rel="stylesheet" href="../assets/css/dashboard.css">
+    <link rel="stylesheet" href="../assets/css/dashboard-main.css">
     <link rel="stylesheet" href="../assets/css/icons/All/all.min.css">
 </head>
 
@@ -22,7 +23,7 @@
             <!-- Navbar secondary -->
             <div class="c-navbar__secondary u-width-100">
                 <!-- Menu -->
-                <nav class="c-menu">
+                <nav class="c-menu u-flex-between">
                     <ul class="c-menu__list u-flex-between">
                         <li class="c-menu__item">
                             <a href="#" class="c-menu__link u-underline-fx u-white u-flex-between">
@@ -32,11 +33,13 @@
                         </li>
                         <li class="c-menu__item">
                             <a href="#" class="c-menu__link u-underline-fx u-white u-flex-between">
+                                <i class="fa-solid fa-wallet c-menu__icon"></i>
                                 Vender cartão
                             </a>
                         </li>
                         <li class="c-menu__item">
                             <a href="#" class="c-menu__link u-underline-fx u-white u-flex-between">
+                                <i class="fa-solid fa-wallet c-menu__icon"></i>
                                 Vender produto
                             </a>
                         </li>
@@ -53,10 +56,17 @@
                             </a>
                         </li>
                     </ul>
+
+                    <!-- Button mobile -->
+                    <button type="button" class="c-menu__mobile-btn u-btn u-white">
+                        <span class="c-menu__mobile-icon"><i class="fa-solid fa-bars"></i></span>
+                    </button>
+
                 </nav>
             </div>
         </div>
     </header>
+
 </body>
 
 </html>
