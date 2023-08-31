@@ -7,10 +7,6 @@
     gap: 50px;
 }
 
-.c-form__title {
-    font-weight: normal;
-}
-
 .c-form {
     gap: 60px;
 }
@@ -19,6 +15,14 @@
     grid-template-columns: repeat(2, 1fr);
     row-gap: 18px;
     column-gap: 45px;
+}
+
+.c-form__title {
+    font-weight: normal;
+}
+
+.c-form__label {
+    font-size: 15.5px;
 }
 
 .c-form__group {
