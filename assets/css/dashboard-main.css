@@ -1,0 +1,56 @@
+.main-content {
+    padding: 35px 20px;
+}
+
+/* Top contents */
+.top-content {
+    gap: 30px;
+}
+
+.top-content__reports {
+    text-align: center;
+    font-size: 17px;
+    padding: 14px 38px;
+    background-color: var(--primary-color);
+}
+
+.user {
+    gap: 12px;
+}
+
+.user__icon {
+    padding: 8px 10.5px;
+    font-size: 23px;
+    border: 3.8px solid var(--black);
+    border-radius: 50px;
+}
+
+.user__name {
+    font-size: 19px;
+}
+
+@media(max-width: 578px) {
+    .top-content {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 290px) {
+
+    .top-content__reports {
+        width: 100%;
+        padding: 14px 0px;
+    }
+
+    .user {
+        flex-direction: column;
+    }
+
+    .user__name {
+        text-align: center;
+    }
+}
+
+/* Cards */

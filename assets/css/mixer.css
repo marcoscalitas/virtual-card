@@ -40,6 +40,11 @@
     transition: var(--hover-transition);
 }
 
+.u-input-primary {
+    padding: 12px;
+    border: 2px solid #0000002e;
+}
+
 .u-focus:focus {
     border: 2px solid var(--primary-color);
 }
@@ -65,26 +70,6 @@
 }
 
 /* Effetcs */
-.u-underline-fx {
-    position: relative;
-}
-
-.u-underline-fx::before {
-    --fx-transition: all 250ms ease-in-out;
-    content: '';
-    width: 0%;
-    height: 2.5px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: var(--primary-color);
-    transition: var(--fx-transition);
-    position: absolute;
-}
-
-.u-underline-fx:hover::before {
-    width: 100%;
-}
 
 /* Others */
 .u-white {

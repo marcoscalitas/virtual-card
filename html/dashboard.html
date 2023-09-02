@@ -18,55 +18,81 @@
         <div class="c-navbar u-flex-between u-width-100">
             <!-- Navbar primary -->
             <div class="c-navbar__primary u-width-100">
-                <h1 class="c-navbar__title u-white u-text-center">Virtual Card</h1>
+                <a href="#">
+                    <h1 class="c-navbar__title u-white u-text-center">Virtual Card</h1>
+                </a>
             </div>
             <!-- Navbar secondary -->
             <div class="c-navbar__secondary u-width-100">
                 <!-- Menu -->
                 <nav class="c-menu u-flex-between">
-                    <ul class="c-menu__list u-flex-between">
+                    <ul class="c-menu__list u-flex-between" id="menu-mobile">
                         <li class="c-menu__item">
-                            <a href="#" class="c-menu__link u-underline-fx u-white u-flex-between">
+                            <a href="#" class="c-menu__link u-white u-flex-between">
                                 <i class="fa-solid fa-wallet c-menu__icon"></i>
                                 Carregar cartão
                             </a>
                         </li>
                         <li class="c-menu__item">
-                            <a href="#" class="c-menu__link u-underline-fx u-white u-flex-between">
+                            <a href="#" class="c-menu__link u-white u-flex-between">
                                 <i class="fa-solid fa-wallet c-menu__icon"></i>
                                 Vender cartão
                             </a>
                         </li>
                         <li class="c-menu__item">
-                            <a href="#" class="c-menu__link u-underline-fx u-white u-flex-between">
+                            <a href="#" class="c-menu__link u-white u-flex-between">
                                 <i class="fa-solid fa-wallet c-menu__icon"></i>
                                 Vender produto
                             </a>
                         </li>
                         <li class="c-menu__item">
-                            <a href="#" class="c-menu__link u-underline-fx u-white u-flex-between">
+                            <a href="#" class="c-menu__link u-white u-flex-between">
                                 <i class="fa-solid fa-box c-menu__icon"></i>
                                 Produtos
                             </a>
                         </li>
                         <li class="c-menu__item">
-                            <a href="#" class="c-menu__link u-underline-fx u-white u-flex-between">
+                            <a href="#" class="c-menu__link u-white u-flex-between">
                                 <i class="fa-solid fa-users c-menu__icon"></i>
                                 Utilizadores
                             </a>
                         </li>
                     </ul>
-
                     <!-- Button mobile -->
-                    <button type="button" class="c-menu__mobile-btn u-btn u-white">
-                        <span class="c-menu__mobile-icon"><i class="fa-solid fa-bars"></i></span>
+                    <button type="button" class="c-menu__mobile-btn u-btn u-white" id="btn-mobile">
+                        <span class="c-menu__mobile-icon" id="open-menu-icon">
+                            <i class="fa-solid fa-bars"></i>
+                        </span>
+                        <span class="c-menu__mobile-icon is-none" id="close-menu-icon">
+                            <i class="fa-solid fa-xmark"></i>
+                        </span>
                     </button>
-
                 </nav>
             </div>
         </div>
     </header>
 
+    <main>
+        <div class="main-content">
+            <!-- Top content -->
+            <section class="top-content u-flex-between">
+                <a href="#" class="top-content__reports u-white">
+                    Relatórios
+                </a>
+                <div class="user u-flex-between">
+                    <span class="user__icon"><i class="fa-regular fa-user"></i></span>
+                    <p class="user__name">#1 - Chelvy Paulino - Administrador</p>
+                </div>
+            </section>
+            <section class="card">
+                <article class="card__wrapper">
+                    
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <script src="../assets/js/addClassBy.js"></script>
 </body>
 
 </html>
